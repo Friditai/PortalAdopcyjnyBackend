@@ -1,0 +1,23 @@
+{
+  "name": "portal-adopcyjny",
+  "version": "1.0.0",
+  "description": "\"Api dla portalu adopcji zwierząt\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Milena Węsiora",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.2",
+    "morgan": "^1.10.0"
+  }
+}
